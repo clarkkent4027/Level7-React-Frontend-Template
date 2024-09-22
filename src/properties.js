@@ -1,10 +1,10 @@
 export const properties = {
     courseName: 'Level 7 Animal Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    endpoint: 'https.api.dictionaryapi.dev.api.v2.entries.en.hello.Elephant.service?q=',
+    description: 'The Elephant Search allows you to find the definition of the word you inputted. It is pretty simple.',
+    backendSwaggerUrl: 'http://localhost:5000/https.api.dictionaryapi.dev.api.v2.entries.en.hello.Elephant.service?q=',
+    createdBy: 'Devin Moorjani',
+    repositoryUrl: 'https://github.com/clarkkent4027/Elephant-Search'
 };
 
 /*
