@@ -21,9 +21,11 @@ const SearchOutput = (props) => {
                 return (
                     <SearchResult
                         key={index}
-                        title={result.title}
-                        authors={result.authors}
-                        link={result.link}
+                        word={ElephantDTO.word}
+                        phonetic={ElephantDTO.phonetic}
+                        phonetics={ElephantDTO.phonetics}
+                        meanings={ElephantDTO.meanings}
+                        sourceUrls={ElephantDTO.sourceUrls}
                     />
                 );
             })
