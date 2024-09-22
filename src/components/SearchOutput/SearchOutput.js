@@ -17,19 +17,18 @@ const SearchOutput = (props) => {
     let searchResults = null;
     if (props.results) {
         searchResults =
-            props.results.get(0).getMeanings().get(0).getDefinitions() => {
+            props.results.map((result, index) => {
                 return (
                     <SearchResult
                         key={index}
-                        word={ElephantDTO.word}
-                        phonetic={ElephantDTO.phonetic}
-                        phonetics={ElephantDTO.phonetics}
-                        meanings={ElephantDTO.meanings}
-                        sourceUrls={ElephantDTO.sourceUrls}
+                        title={result.title}
+                        authors={result.authors}
+                        link={result.link}
                     />
                 );
             })
     }
+
 
     return (
         <div className={classes.ElephantDTO}>

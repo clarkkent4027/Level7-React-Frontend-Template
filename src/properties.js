@@ -1,10 +1,10 @@
 export const properties = {
     courseName: 'Level 7 Animal Search',
-    endpoint: 'https.api.dictionaryapi.dev.api.v2.entries.en.hello.Elephant.service?q=',
+    endpoint: 'http://localhost:5000/searchElephantResults?q=',
     description: 'The Elephant Search allows you to find the definition of the word you inputted. It is pretty simple.',
-    backendSwaggerUrl: 'https.api.dictionaryapi.dev.api.v2.entries.en.hello.Elephant.service',
+    backendSwaggerUrl: 'http://localhost:5000/searchElephantResults/',
     createdBy: 'Devin Moorjani',
-    repositoryUrl: 'https://github.com/clarkkent4027/Elephant-Search'
+    repositoryUrl: 'http://github.com/clarkkent4027/Elephant-Search'
 };
 
 /*
