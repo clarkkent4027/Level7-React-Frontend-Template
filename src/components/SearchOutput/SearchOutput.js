@@ -17,7 +17,7 @@ const SearchOutput = (props) => {
     let searchResults = null;
     if (props.results) {
         searchResults =
-            props.results.map((result, index) => {
+            props.results.get(0).getMeanings().get(0).getDefinitions() => {
                 return (
                     <SearchResult
                         key={index}
@@ -32,7 +32,7 @@ const SearchOutput = (props) => {
     }
 
     return (
-        <div className={classes.Result}>
+        <div className={classes.ElephantDTO}>
             {message}
             {searchResults}
         </div>
